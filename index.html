@@ -16,6 +16,67 @@
     <link rel="stylesheet" href="https://inbio.pixcelsthemes.com/inbio/assets/css/vendor/aos.css">
     <link rel="stylesheet" href="https://inbio.pixcelsthemes.com/inbio/assets/css/plugins/feature.css">
     <link rel="stylesheet" href="https://inbio.pixcelsthemes.com/inbio/assets/css/style.css">
+    <style>
+        /* Align "FIND WITH ME" social icon boxes consistently */
+        .rn-contact-area .social-icone a img,
+        .rn-contact-area .social-icone a svg {
+            width: 22px;
+            height: 22px;
+            vertical-align: middle;
+        }
+
+        /* Contact methods (WhatsApp / Phone / Email) */
+        .contact-method-list {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+        .contact-method {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            padding: 22px 26px;
+            border-radius: 10px;
+            background: var(--gradient-box-w, #fff);
+            box-shadow: var(--shadow-white-3, 0 4px 20px rgba(0, 0, 0, .06));
+            transition: var(--transition, all .3s ease);
+            text-decoration: none;
+        }
+        .contact-method:hover {
+            transform: translateY(-5px);
+        }
+        .contact-method .icon {
+            flex: 0 0 auto;
+            width: 54px;
+            height: 54px;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 8px;
+            background: var(--gradient-red-hover, linear-gradient(145deg, #ff014f, #d4003f));
+            color: #fff;
+        }
+        .contact-method .icon svg {
+            width: 24px;
+            height: 24px;
+        }
+        .contact-method .info {
+            display: flex;
+            flex-direction: column;
+        }
+        .contact-method .label {
+            font-size: 14px;
+            font-weight: 500;
+            color: var(--color-body-white, #1e2125);
+            opacity: .7;
+        }
+        .contact-method .value {
+            font-size: 17px;
+            font-weight: 600;
+            color: var(--color-heading-white, #1e2125);
+            word-break: break-word;
+        }
+    </style>
 </head>
 
 <body class="template-color-1 spybody white-version" data-spy="scroll" data-target=".navbar-example2" data-offset="150">
@@ -115,8 +176,8 @@
                                                 <span>a </span>
                                                 <span class="cd-words-wrapper">
                                                     <b class="is-visible">FullStack Developer.</b>
-                                                    <b class="is-hidden">Cybersecurity Specialist.</b>
-                                                    <b class="is-hidden">Cloud Practictioner.</b>
+                                                    <b class="is-hidden">Cloud Practitioner.</b>
+                                                    <b class="is-hidden">Devops Professional.</b>
                                                 </span>
                                             </span>
                                         </span>
@@ -1492,29 +1553,27 @@
                         </div>
                     </div>
                 </div>
-                <div class="row mt--50 mt_md--40 mt_sm--40 mt-contact-sm">
+                <div class="row mt--50 mt_md--40 mt_sm--40 mt-contact-sm align-items-center">
                     <div class="col-lg-5">
                         <div class="contact-about-area">
                             <div class="thumbnail">
-                                <img src="https://inbio.pixcelsthemes.com/inbio/assets/images/contact/contact1.png"
+                                <img src="https://i.postimg.cc/Ssv9kTKJ/ba168f11-16ec-462f-a62f-746fae3e19fa-removalai-preview.png"
                                     alt="contact-img">
                             </div>
                             <div class="title-area">
                                 <h4 class="title">Kingsley Botchway</h4>
+                                <span>Full-Stack Developer &amp; Cybersecurity Specialist</span>
                             </div>
                             <div class="description">
-                                <p>I am available for freelance work. Connect with me via and call in to my account.
-                                </p>
-                                <span class="phone">Phone: <a href="tel:01941043264">+233209220935</a></span>
-                                <span class="mail">Email: <a
-                                        href="mailto:kbotchway7@st.knust.edu.gh">kbotchway7@st.knust.edu.gh</a></span>
+                                <p>I'm passionate about building secure, scalable applications and protecting digital
+                                    assets. Let's collaborate on your next project!</p>
                             </div>
                             <div class="social-area">
-                                <div class="name">REACH OUT</div>
+                                <div class="name">FIND WITH ME</div>
                                 <div class="social-icone">
                                     <ul class="social-share d-flex liststyle">
                                         <li class="instagram"><a href="https://wa.me/233209220935" target="_blank"
-                                                rel="noopener noreferrer"><img width="30" height="50"
+                                                rel="noopener noreferrer"><img width="30" height="30"
                                                     src="https://img.icons8.com/ios/50/whatsapp--v5.png"
                                                     alt="whatsapp--v5" /></a>
                                         </li>
@@ -1533,53 +1592,29 @@
                         </div>
                     </div>
                     <div data-aos-delay="600" class="col-lg-7 contact-input">
-                        <div class="contact-form-wrapper">
-                            <div class="introduce">
-                                <form class="rnt-contact-form rwt-dynamic-form row" id="contact-form" method="POST"
-                                    action="https://inbio.pixcelsthemes.com/inbio/mail.php">
-                                    <div class="col-lg-6">
-                                        <div class="form-group">
-                                            <label for="contact-name">Your Name</label>
-                                            <input class="form-control form-control-lg" name="contact-name"
-                                                id="contact-name" type="text">
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-6">
-                                        <div class="form-group">
-                                            <label for="contact-phone">Phone Number</label>
-                                            <input class="form-control" name="contact-phone" id="contact-phone"
-                                                type="text">
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-12">
-                                        <div class="form-group">
-                                            <label for="contact-email">Email</label>
-                                            <input class="form-control form-control-sm" id="contact-email"
-                                                name="contact-email" type="email">
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-12">
-                                        <div class="form-group">
-                                            <label for="subject">subject</label>
-                                            <input class="form-control form-control-sm" id="subject" name="subject"
-                                                type="text">
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-12">
-                                        <div class="form-group">
-                                            <label for="contact-message">Your Message</label>
-                                            <textarea name="contact-message" id="contact-message" cols="30"
-                                                rows="10"></textarea>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-12">
-                                        <button name="submit" type="submit" id="submit" class="rn-btn">
-                                            <span>SEND MESSAGE</span>
-                                            <i data-feather="arrow-right"></i>
-                                        </button>
-                                    </div>
-                                </form>
-                            </div>
+                        <div class="contact-method-list">
+                            <a class="contact-method" href="https://wa.me/233209220935" target="_blank"
+                                rel="noopener noreferrer">
+                                <span class="icon"><i data-feather="message-circle"></i></span>
+                                <span class="info">
+                                    <span class="label">WhatsApp</span>
+                                    <span class="value">+233 20 922 0935</span>
+                                </span>
+                            </a>
+                            <a class="contact-method" href="tel:+233550566516">
+                                <span class="icon"><i data-feather="phone"></i></span>
+                                <span class="info">
+                                    <span class="label">Phone</span>
+                                    <span class="value">+233 55 056 6516</span>
+                                </span>
+                            </a>
+                            <a class="contact-method" href="mailto:kingsleybotchwayedu11@gmail.com">
+                                <span class="icon"><i data-feather="mail"></i></span>
+                                <span class="info">
+                                    <span class="label">Email</span>
+                                    <span class="value">kingsleybotchwayedu11@gmail.com</span>
+                                </span>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -1902,89 +1937,3 @@
 </body>
 
 </html>
-
-<!-- Contact Section -->
-<div class="rn-contact-area rn-section-gap section-separator" id="contacts">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12">
-                <div class="section-title text-center">
-                    <span class="subtitle">Contact</span>
-                    <h2 class="title">Contact With Me</h2>
-                </div>
-            </div>
-        </div>
-        <div class="row mt--50 mt_md--40 mt_sm--40 mt-contact-sm">
-            <div class="col-lg-5">
-                <div class="contact-about-area">
-                    <div class="thumbnail">
-                        <img src="https://i.postimg.cc/Ssv9kTKJ/ba168f11-16ec-462f-a62f-746fae3e19fa-removalai-preview.png" alt="contact-img">
-                    </div>
-                    <div class="title-area">
-                        <h4 class="title">Kingsley Botchway</h4>
-                        <span>Full-Stack Developer & Cybersecurity Specialist</span>
-                    </div>
-                    <div class="description">
-                        <p>I'm passionate about building secure, scalable applications and protecting digital assets. Let's collaborate on your next project!</p>
-                        <span class="phone">Phone: <a href="tel:+233209220935">+233 20 922 0935</a></span>
-                        <span class="mail">Email: <a href="mailto:kingsleybotchway6@gmail.com">kingsleybotchway6@gmail.com</a></span>
-                    </div>
-                    <div class="social-area">
-                        <div class="name">FIND WITH ME</div>
-                        <div class="social-icone">
-                            <a href="https://wa.me/233209220935" target="_blank"><img width="30" height="30" src="https://img.icons8.com/ios/50/whatsapp--v5.png" alt="whatsapp"/></a>
-                            <a href="https://www.linkedin.com/in/botchway-kingsley-410097374" target="_blank"><i data-feather="linkedin"></i></a>
-                            <a href="https://github.com/MhisterKhing6" target="_blank"><i data-feather="github"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-7 contact-input">
-                <div class="contact-form-wrapper">
-                    <div class="introduce">
-                        <form class="rnt-contact-form rwt-dynamic-form row" id="contact-form" method="POST" action="#">
-                            <div class="col-lg-6">
-                                <div class="form-group">
-                                    <label for="contact-name">Your Name</label>
-                                    <input class="form-control form-control-lg" name="contact-name" id="contact-name" type="text" required>
-                                </div>
-                            </div>
-                            <div class="col-lg-6">
-                                <div class="form-group">
-                                    <label for="contact-phone">Phone Number</label>
-                                    <input class="form-control" name="contact-phone" id="contact-phone" type="text">
-                                </div>
-                            </div>
-                            <div class="col-lg-12">
-                                <div class="form-group">
-                                    <label for="contact-email">Email</label>
-                                    <input class="form-control form-control-sm" id="contact-email" name="contact-email" type="email" required>
-                                </div>
-                            </div>
-                            <div class="col-lg-12">
-                                <div class="form-group">
-                                    <label for="subject">Subject</label>
-                                    <input class="form-control form-control-sm" id="subject" name="subject" type="text" required>
-                                </div>
-                            </div>
-                            <div class="col-lg-12">
-                                <div class="form-group">
-                                    <label for="contact-message">Your Message</label>
-                                    <textarea name="contact-message" id="contact-message" cols="30" rows="10" required></textarea>
-                                </div>
-                            </div>
-                            <div class="col-lg-12">
-                                <div class="form-submit-group">
-                                    <button name="submit" type="submit" id="submit" class="rn-btn">
-                                        <span>SEND MESSAGE</span>
-                                        <i data-feather="arrow-right"></i>
-                                    </button>
-                                </div>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
